@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENTER PRIORITY AND DURATION"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="25dp">
+
+    </TextView>
+
+    <!-- Main Content Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Spinner Dropdown -->
+        <Spinner
+            android:id="@+id/prioritySpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:entries="@array/priority_array"
+            android:layout_marginEnd="8dp">
+
+        </Spinner>
+
+        <!-- EditText -->
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:hint="Task 1 Duration"
+            android:id="@+id/taskDuration1"
+            android:elevation="6dp"
+            android:paddingStart="8dp"
+            android:background="@drawable/edit"
+            android:inputType="number"
+            android:layout_margin="14dp">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Spinner Dropdown -->
+        <Spinner
+            android:id="@+id/prioritySpinner2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:entries="@array/priority_array"
+            android:layout_marginEnd="8dp">
+
+        </Spinner>
+
+        <!-- EditText -->
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:hint="Task 2 Duration"
+            android:id="@+id/taskDuration2"
+            android:elevation="6dp"
+            android:paddingStart="8dp"
+            android:background="@drawable/edit"
+            android:inputType="number"
+            android:layout_margin="14dp">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Spinner Dropdown -->
+        <Spinner
+            android:id="@+id/prioritySpinner3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:entries="@array/priority_array"
+            android:layout_marginEnd="8dp">
+
+        </Spinner>
+
+        <!-- EditText -->
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:hint="Task 3 Duration"
+            android:id="@+id/taskDuration3"
+            android:elevation="6dp"
+            android:paddingStart="8dp"
+            android:background="@drawable/edit"
+            android:inputType="number"
+            android:layout_margin="14dp">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Spinner Dropdown -->
+        <Spinner
+            android:id="@+id/prioritySpinner4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:entries="@array/priority_array"
+            android:layout_marginEnd="8dp">
+
+        </Spinner>
+
+        <!-- EditText -->
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:hint="Task 4 Duration"
+            android:id="@+id/taskDuration4"
+            android:elevation="6dp"
+            android:paddingStart="8dp"
+            android:background="@drawable/edit"
+            android:inputType="number"
+            android:layout_margin="14dp">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Spinner Dropdown -->
+        <Spinner
+            android:id="@+id/prioritySpinner5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:entries="@array/priority_array"
+            android:layout_marginEnd="8dp">
+
+        </Spinner>
+
+        <!-- EditText -->
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:hint="Task 5 Duration"
+            android:id="@+id/taskDuration5"
+            android:elevation="6dp"
+            android:paddingStart="8dp"
+            android:background="@drawable/edit"
+            android:inputType="number"
+            android:layout_margin="14dp">
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:id="@+id/displayTasksButton"
+        android:text="DISPLAY TASKS">
+
+    </Button>
+
+</LinearLayout>

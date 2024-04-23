@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tasks"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TasksActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:text="Enter The Tasks"
+        android:textAlignment="center"
+        android:textSize="50sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Task 1"
+            android:drawableStart="@drawable/taskit"
+            android:id="@+id/edt1"
+            android:drawablePadding="4dp"
+            android:elevation="6dp"
+            android:paddingStart="8dp"
+            android:background="@drawable/edit"
+            android:inputType="text"
+            android:layout_margin="14dp">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Task 2"
+            android:drawableStart="@drawable/taskit"
+            android:id="@+id/edt2"
+            android:drawablePadding="4dp"
+            android:elevation="6dp"
+            android:paddingStart="8dp"
+            android:background="@drawable/edit"
+            android:inputType="text"
+            android:layout_margin="14dp">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Task 3"
+            android:drawableStart="@drawable/taskit"
+            android:id="@+id/edt3"
+            android:drawablePadding="4dp"
+            android:elevation="6dp"
+            android:paddingStart="8dp"
+            android:background="@drawable/edit"
+            android:inputType="text"
+            android:layout_margin="14dp">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Task 4"
+            android:drawableStart="@drawable/taskit"
+            android:id="@+id/edt4"
+            android:drawablePadding="4dp"
+            android:elevation="6dp"
+            android:paddingStart="8dp"
+            android:background="@drawable/edit"
+            android:inputType="text"
+            android:layout_margin="14dp">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Task 5"
+            android:drawableStart="@drawable/taskit"
+            android:id="@+id/edt5"
+            android:drawablePadding="4dp"
+            android:elevation="6dp"
+            android:paddingStart="8dp"
+            android:background="@drawable/edit"
+            android:inputType="text"
+            android:layout_margin="14dp">
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:id="@+id/nextButton"
+        android:text="NEXT">
+
+    </Button>
+
+</LinearLayout>
